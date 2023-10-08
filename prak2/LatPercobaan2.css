@@ -1,0 +1,84 @@
+
+
+.container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  background-color: beige;
+}
+
+header {
+  padding: 20px;
+  display: flex;
+  justify-content: start;
+  background-color: rgba(25, 40, 40, 0.153);
+}
+
+header .gambarutama {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+  justify-content: start;
+}
+
+.side {
+  margin-left: 20px;
+  color: black;
+}
+
+.pengalaman h3 {
+  margin: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(75, 84, 27, 0.153);
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav li {
+  margin-right: 2rem;
+  font-weight: bold;
+}
+.tentang {
+  background-color: rgba(25, 40, 40, 0.153);
+  margin: 1rem;
+  padding: 1rem;
+}
+.tentang .video {
+  text-align: center;
+}
+video {
+  width: 50%;
+}
+
+.pengalaman .tabel {
+  margin: 1rem;
+  width: 97%;
+}
+
+.pengalaman,
+.contact {
+  margin: 20px;
+  background-color: rgba(25, 40, 40, 0.153);
+}
+
+.contact {
+  padding: 20px;
+  margin-bottom: 0px;
+}
+th {
+  background-color: rgba(218, 240, 241, 0.827);
+}
+footer {
+  background-color: rgb(144, 132, 117);
+}
+footer h3 {
+  text-align: center;
+}
